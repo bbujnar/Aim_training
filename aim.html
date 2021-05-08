@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1b2807e468.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div id="score">Score: None</div>
+        <div id="best">Best score: None</div>
+        <div id="timer">Time left: None</div>
+    </header>
+    <main>
+        <div id="dot" onclick="update()" style="display: none;"><img src="images/dot.png" alt="dot" class="disable-selection" onclick="game()"></div>
+        
+        <button id="start"><i class="fas fa-play-circle"></i></button>
+        <button id="reset" style="display: none;">Play again</button><br/>
+        <i class="fas fa-question" id="hint"><br>^<br>Click me for hint</i>
+        <form id="settings">
+            <select name="time" id="choose">
+                <option value=10>10 sekund</option>
+                <option value=20>20 sekund</option>
+                <option value=30>30 sekund</option>
+                <option value=60>60 sekund</option>
+            </select>
+        </form>
+        
+    </main>
+
+
+
+    <footer>Copyright &copy; 2021<br/>Bartłomiej Bujnarowski <br/>Aiming Training</footer>
+    <script src="code.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    cursor: crosshair;
+    background-color: black;
+    color: rgb(172, 26, 26);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Header nav */
+
+header{
+    display: inline-flexbox;
+    text-align: center;
+    height: 5vh;
+}
+button{
+    border-radius: 5em;
+    width: 50%;
+    height: 10vh;
+    border: 3px solid rgb(172, 26, 26);
+    background-color: rgb(201, 18, 18);
+    transition: 0.3s;
+    font-size: 30px;
+    cursor: crosshair;
+}
+button:hover{
+    background-color: rgb(172, 26, 26);
+    cursor: crosshair;
+}
+
+
+/* DOT */
+
+#dot{
+    position: absolute;
+    transition: 0.3s;
+}
+.disable-selection {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+                                 
+}
+
+main{
+    width: 100%;
+    height: 75vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    font-size: 10px;
+    height: 4vh;
+    border-top: 2px solid  rgb(172, 26, 26);
+}
+
+form{
+    padding-top: 20px;
+}
+select{
+    background-color: black;
+    border: 1px solid rgb(172, 26, 26);
+    color: rgb(172, 26, 26);
+}
