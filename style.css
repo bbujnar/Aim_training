@@ -25,6 +25,12 @@ header{
     display: inline-flexbox;
     text-align: center;
     height: 5vh;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 button{
     border-radius: 5em;
@@ -35,10 +41,22 @@ button{
     transition: 0.3s;
     font-size: 30px;
     cursor: crosshair;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 button:hover{
     background-color: rgb(172, 26, 26);
     cursor: crosshair;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
 }
 
 
